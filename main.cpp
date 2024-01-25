@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
   TTelemetricFile TelemetricFile;
   QStringList Data;
 
-  TelemetricFile.ReadFile("TestData.txt");
+  TelemetricFile.ReadFile("Data.txt");
   Data = TelemetricFile.Print();
 
   cout << QString::fromUtf8("Содержимое телеметрического файла:\n");
